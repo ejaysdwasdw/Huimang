@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Document</title>
+<link rel="stylesheet" href="style.css" />
+
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(8, 189, 245);
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    color: rgb(8, 189, 245);
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: rgb(148, 100, 37);
+}
+
+.pages {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo-container">
+        <img src="jay.jpg"icon" />
+        <div class="logo-text">Ejay Cama</div>
+    </div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="pages" id="home"> 
+  <div class="home-frame">
+
+    <div class="hero">
+
+      <div class="hero-image">
+        <img src="ed.jpg" alt="">
+      </div>
+
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Ejay</span></h1>
+        <h4>I'm a College Student from Bulacan State University</h4>
+        <p>
+          As a college student at Bulacan State University, I am currently developing a website portfolio as part of my Platform Technologies subject.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="pages" id="About">
+  <div class="home-frame">
+
+    <div class="about-container">
+
+      <div class="about-img">
+        <img src="profile.jpg" alt="Ejay Profile Picture">
+      </div>
+
+      <div class="about-text">
+        <h2>ABOUT ME</h2>
+
+        <p>
+          Hi! I’m Ejay, a student from Bulacan State University with a passion for web design and development.
+          I enjoy creating simple, creative, and user-friendly websites while exploring different design styles and animations.
+        </p>
+
+        <p>
+          I am currently learning tools such as Adobe Creative Suite and Figma to improve my design skills.
+          My goal is to continuously grow, gain real-world experience, and turn ideas into engaging digital experiences through design and motion.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/ernestojoseph.cama.5"><img src="FB.jpg" alt="Facebook"></a>
+          <a href="https://www.instagram.com/miniegga/"><img src="IG.webp" alt="Instagram"></a>
+          <a href="https://www.tiktok.com/@greghwi?lang=en"><img src="tiktok.png" alt="TikTok"></a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="Skills">
+  <div class="container">
+
+    <div class="skills-container">
+      <h2>SKILL</h2>
+      <ul class="skills-list">
+        <li>Graphic Design: Create basic posters and social media visuals.</li>
+        <li>Layout Design: Arrange text and images for clean designs.</li>
+        <li>Photo Editing: Canva and Photoshop.</li>
+        <li>Color Theory: Apply proper color combinations.</li>
+        <li>UI Design: Basic Figma knowledge.</li>
+        <li>Typing Skills: Fast and accurate typing.</li>
+      </ul>
+    </div>
+
+    <div class="experience-container">
+      <img src="ejays.jpg" class="profile-img">
+      <h2>EXPERIENCE</h2>
+      <p>
+        I worked at Bitwise for two weeks, where I edited and created designs using Canva,
+        assisted customers, and made resumes for clients. I also improved my basic computer
+        and communication skills while working with customers.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="pages" id="Contact">
+  <h2>Contact Me</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="4" placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p class="social-title">My social Media Account</p>
+
+  <div class="social-icons">
+    <a href="https://www.facebook.com/ernestojoseph.cama.5"><img src="FB.jpg" alt="facebook"></a>
+    <a href="https://www.instagram.com/miniegga/"><img src="IG.webp" alt="instagram"></a>
+    <a href="https://www.tiktok.com/@greghwi?lang=en"><img src="tiktok.png" alt="tiktok"></a>
+  </div>
+</section>  
+
+<footer>
+  <p>Pag mamay ari ni Huimang</p>
+</footer>
+
+</body>
+</html>
